@@ -1,0 +1,56 @@
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: white;
+    position: fixed;
+    height: 100%;  
+    overflow: auto;  
+    border: 1px solid black;
+}
+
+body{    
+background-color: rgb(255, 255, 255);
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.center-container{
+    width: 320px;
+    height: 100px;
+    padding-top: 50px;
+    border: 1px solid gray;    
+    margin-left: 450px;  
+    margin-right: 450px;  
+    background-color: rgb(207, 207, 207);
+    /* display: flex;
+    justify-content: center; */
+ 
+}
+.alineado{
+    padding-top: 50px;
+}
+.button{
+    background-color: yellow;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+
+/* esto es como uin condicional if para q sea responsive el cada dispositivo */
+/* @media screen {
+    .center-container{
+        width: auto;
+        font-size: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sidebar
+    {
+        width: auto;
+
+    }
+    
+} */
